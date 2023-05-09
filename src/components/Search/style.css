@@ -1,0 +1,115 @@
+.search-input-wrap{
+   position: relative;
+}
+
+.icon-loop{
+   position: absolute;
+   display: flex;
+   
+   z-index: 99;
+   top: 15px;
+   right: 96.5%;
+
+}
+
+.search-input{
+   padding: 13px 36px;
+   border: none;
+   width: 773px;
+   height: 48px;
+   border-radius: 8px;
+   background: #FFFFFF;
+   border: 1px solid #EAEBED;
+}
+
+::placeholder {
+   color: #ACADB9;
+}
+
+.search-input:focus{
+   border: 1px solid #92C1FF;
+   outline: 0;
+}
+
+.search-button{
+   position: absolute;
+   z-index: 99;
+   top: 8px;
+   right: 12px;
+   padding: 4px 20px;
+   width: 83px;
+   height: 32px;
+   background: #5E96FC;
+   border-radius: 8px;
+   border: none;
+   color: white;
+   cursor: pointer;
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.search-button:hover{
+   background: #92C1FF;
+   transition: 0.3s;
+}
+
+/* LIST  */
+
+
+.item-wrap{
+   width: 773px;
+   height: 137px;
+   background: #FFFFFF;
+   border: 1px solid #EAEBED;
+   border-radius: 12px;
+   padding: 24px;
+
+   position: relative;
+   margin-top: 16px;
+   cursor: pointer;
+}
+
+.icon-star{
+   position: absolute;
+   top: 25px;
+   right: 25px;
+}
+
+.item-title{
+   font-weight: 600;
+   font-size: 20px;
+   color: #5E96FC;
+   margin-bottom: 12px;
+}
+
+.item-discription{
+   display: flex;
+   margin-bottom: 13px;
+}
+
+.item-discription-salary{
+   font-weight: 600;
+   font-size: 16px;
+   margin-right: 12px;
+}
+
+.item-discription-point{
+   color: #7B7C88;
+   margin-right: 12px;
+}
+
+.item-discription-timetable{
+   font-weight: 400;
+   font-size: 16px;
+}
+
+.item-location{
+   display: flex;
+}
+
+.icon-location{
+   margin-right: 12px;
+}
+

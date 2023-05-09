@@ -1,0 +1,8 @@
+.home{
+   margin-top: 40px;
+}
+
+.home-content{
+   display: flex;
+   justify-content: space-between;
+}

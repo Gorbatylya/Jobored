@@ -1,0 +1,155 @@
+.filters{
+   width: 315px;
+   height: 360px;
+   background-color: white;
+   padding: 20px;
+   border: 1px solid #EAEBED;
+   border-radius: 12px;
+}
+
+.top-row{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 32px;
+}
+
+.filters-title{
+   font-weight: 700;
+   font-size: 20px;
+}
+
+.btn-reset-filters{
+   border: none;
+   cursor: pointer;
+   background-color: white;
+}
+
+.btn-reset-filters-title{
+   font-size: 14px;
+   font-weight: 500;
+   color: #ACADB9;
+}
+
+.btn-reset-filters-title:hover{
+   color: #92C1FF;
+   transition: 0.3s;
+}
+
+.title-input{
+   font-size: 16px;
+   margin-bottom: 8px;
+}
+
+.filter-input-wrap{
+   margin-bottom: 8px;
+   position: relative;
+}
+
+.first-input{
+   margin-bottom: 20px !important;
+}
+
+.filter-input{
+   padding: 8px 12px;
+   width: 275px;
+   height: 42px;
+   background: #FFFFFF;
+   border: 1px solid #D5D6DC;
+   border-radius: 8px;
+}
+
+
+.profession-list{
+   width: 275px;
+   height: 188px;
+   background: #FFFFFF;
+   border-radius: 8px;
+   position: absolute;
+   z-index: 150;
+   top: 50px;
+   padding: 4px;
+   /* border: 1px solid #D5D6DC; */
+   box-shadow: 0 0 0 1px #D5D6DC;
+   /* display: none; */
+}
+
+.active{
+   display: inline;
+}
+
+
+.profession-list li{
+   font-weight: 400;
+   font-size: 14px;
+   list-style-type: none;
+   padding: 8px;
+   height: 36px;
+}
+
+.profession-list li:hover{
+   background: #5E96FC;
+   border-radius: 8px;
+   transition: 0.3s;
+   color: white;
+   display: flex;
+   align-items: center;
+}
+
+.arrow-down{
+   position: absolute;
+   z-index: 99;
+   top: 10px;
+   right: 10px;
+
+}
+
+.arrow-down-blue{
+   position: absolute;
+   z-index: 99;
+   top: 14px;
+   right: 14px;
+}
+
+.filter-input:focus{
+   border: 1px solid #92C1FF;
+   outline: 0;
+}
+
+.last-input{
+   margin-bottom: 20px;
+}
+
+.arrow-down-salary{
+   width: 16px !important;
+   height: 16px !important;
+   position: absolute;
+   z-index: 99;
+   top: 22px;
+   right: 11px;
+}
+
+.arrow-up-salary{
+   width: 16px !important;
+   height: 16px !important;
+   position: absolute;
+   z-index: 99;
+   top: 6px;
+   right: 11px;
+}
+
+.filter-button{
+   padding: 4px 20px;
+   width: 275px;
+   height: 40px;
+   background: #5E96FC;
+   border-radius: 8px;
+   border: none;
+   color: white;
+   cursor: pointer;
+}
+
+.filter-button:hover{
+   background: #92C1FF;
+   transition: 0.3s;
+}
+

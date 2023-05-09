@@ -1,0 +1,36 @@
+.favourites-content{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10%;
+}
+
+.favourites-title{
+   margin-top: 32px;
+}
+
+.favourite-btn{
+   margin-top: 32px;
+   
+   padding: 10px 24px;
+   width: 164px;
+   height: 42px;
+   background: #DEECFF;
+   border-radius: 8px;
+   border: none;
+   color: #3B7CD3;
+   cursor: pointer;
+
+   font-weight: 600;
+   font-size: 14px;
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.favourite-btn:hover{
+   background: #92C1FF;
+   transition: 0.3s;
+}

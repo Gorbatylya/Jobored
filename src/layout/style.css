@@ -1,0 +1,29 @@
+.header{
+   position: fixed;
+   z-index: 999;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  height: 85px;
+  padding-top: 24px;
+}
+
+
+.header__content{
+   display: flex;
+   align-items: center;
+   width: 100%;
+}
+
+.header__logo{
+   display: flex;
+}
+
+.header__logo-title{
+   margin-left: 7px;
+}
+
+a{
+   text-decoration: none;
+   color: black;
+}

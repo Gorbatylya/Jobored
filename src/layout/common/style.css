@@ -1,0 +1,26 @@
+.header__nav{
+   margin-left: 280px;
+}
+
+.header__nav-links{
+   display: flex;
+   width: 275px;
+   justify-content: space-between;
+}
+
+.header__nav-links li{
+   list-style-type: none;
+   text-decoration: none;
+}
+
+.header__nav-links a{
+   text-decoration: none;
+}
+
+.active-link{
+   color:#5E96FC;
+}
+
+.linkPage{
+   color: black;
+}
